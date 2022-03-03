@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: oracle-adaptor
+  title: JRE
+  description: Oracle database adaptor
+  tags: 
+    - java
+    - linux
+  iconUrl: https://github.com/jmconelogin/jmconelogin/blob/main/custom_logo.png?raw=true
+  annotations:
+    github.com/project-slug: mark-dutra/oracle-adaptor
+spec:
+  type: adaptor
+  lifecycle: production
+  owner: devsecops
+  system: java
+  subcomponentOf: mark-demo
